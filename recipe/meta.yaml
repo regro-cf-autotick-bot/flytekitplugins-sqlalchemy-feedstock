@@ -1,5 +1,5 @@
 {% set name = "flytekitplugins-sqlalchemy" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flytekitplugins-sqlalchemy-{{ version }}.tar.gz
-  sha256: a11856a061bb9daa37b1a02198f27583e839d6af4ae53cb620f40ab9519792df
+  sha256: ed7c475a8c0b73f564948c9243f1ea4e115d183510db3df718ea4e7f4255aed1
 
 build:
   number: 0
